@@ -1,0 +1,12 @@
+# Ignore data and temporary files
+data_ingestion/pdfs/
+data_ingestion/extracted_text/
+backend/storage/
+
+# Ignore configuration files with sensitive information
+utils/config.py
+
+# Ignore Python cache and virtual environment
+__pycache__/
+*.pyc
+venv/
